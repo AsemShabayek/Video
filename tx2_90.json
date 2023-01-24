@@ -1,0 +1,177 @@
+{
+    "context": {
+        "UnitOfMeasureScale": 1,
+        "Zup": true,
+        "RepoPath": ""
+    },
+    "scene": [
+        "tx2_90",
+        "tx2_90.${prefix}base_link",
+        "tx2_90.${prefix}link_1",
+        "tx2_90.${prefix}link_2",
+        "tx2_90.${prefix}link_3",
+        "tx2_90.${prefix}link_4",
+        "tx2_90.${prefix}link_5",
+        "tx2_90.${prefix}link_6",
+        "tx2_90.${prefix}base",
+        "tx2_90.${prefix}flange",
+        "tx2_90.${prefix}tool0"
+    ],
+    "assets": [
+        {
+            "id": "tx2_90",
+            "representations": [
+                {
+                    "file": "tx2_90.glb",
+                    "unit": 1
+                }
+            ]
+        },
+        {
+            "id": "tx2_90.${prefix}base_link",
+            "representations": [
+                {
+                    "file": "tx2_90.glb#Base_link",
+                    "unit": 1
+                }
+            ],
+            "placementRelTo": "tx2_90",
+            "parentObject": "tx2_90"
+        },
+        {
+            "id": "tx2_90.${prefix}link_1",
+            "representations": [
+                {
+                    "file": "tx2_90.glb#Link_1",
+                    "unit": 1
+                }
+            ],
+            "position": [
+                0.0,
+                0.0,
+                0.478
+            ],
+            "rotation": [
+                0.0,
+                -0.0,
+                0.0
+            ],
+            "placementRelTo": "tx2_90.${prefix}base_link",
+            "parentObject": "tx2_90.${prefix}base_link"
+        },
+        {
+            "id": "tx2_90.${prefix}link_2",
+            "representations": [
+                {
+                    "file": "tx2_90.glb#Link_2",
+                    "unit": 1
+                }
+            ],
+            "placementRelTo": "tx2_90.${prefix}link_1",
+            "parentObject": "tx2_90.${prefix}link_1",
+            "position": [
+                0.05,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                -0.0,
+                0.0
+            ]
+        },
+        {
+            "id": "tx2_90.${prefix}link_3",
+            "representations": [
+                {
+                    "file": "tx2_90.glb#Link_3",
+                    "unit": 1
+                }
+            ],
+            "placementRelTo": "tx2_90.${prefix}link_2",
+            "parentObject": "tx2_90.${prefix}link_2",
+            "position": [
+                0.0,
+                0.05,
+                0.425
+            ],
+            "rotation": [
+                0.0,
+                -0.0,
+                0.0
+            ]
+        },
+        {
+            "id": "tx2_90.${prefix}link_4",
+            "representations": [
+                {
+                    "file": "tx2_90.glb#Link_4",
+                    "unit": 1
+                }
+            ],
+            "placementRelTo": "tx2_90.${prefix}link_3",
+            "parentObject": "tx2_90.${prefix}link_3",
+            "position": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                -0.0,
+                0.0
+            ]
+        },
+        {
+            "id": "tx2_90.${prefix}link_5",
+            "representations": [
+                {
+                    "file": "tx2_90.glb#Link_5",
+                    "unit": 1
+                }
+            ],
+            "placementRelTo": "tx2_90.${prefix}link_4",
+            "parentObject": "tx2_90.${prefix}link_4",
+            "position": [
+                0.0,
+                0.0,
+                0.425
+            ],
+            "rotation": [
+                0.0,
+                -0.0,
+                0.0
+            ]
+        },
+        {
+            "id": "tx2_90.${prefix}link_6",
+            "representations": [
+                {
+                    "file": "tx2_90.glb#Link_6",
+                    "unit": 1
+                }
+            ],
+            "placementRelTo": "tx2_90.${prefix}link_5",
+            "parentObject": "tx2_90.${prefix}link_5",
+            "position": [
+                0.0,
+                0.0,
+                0.1
+            ],
+            "rotation": [
+                0.0,
+                -0.0,
+                0.0
+            ]
+        },
+        {
+            "id": "tx2_90.${prefix}base"
+        },
+        {
+            "id": "tx2_90.${prefix}flange"
+        },
+        {
+            "id": "tx2_90.${prefix}tool0"
+        }
+    ]
+}
